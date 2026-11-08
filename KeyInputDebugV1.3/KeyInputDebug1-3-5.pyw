@@ -12,7 +12,7 @@ def checkinstalled(modulelist):
             exit = True
     if exit == True:
         sys.exit('Install dependencies and try again')
-modules = ['pynput', 'PIL', 'asyncio', 'pyautogui']
+modules = ['pynput', 'PIL', 'asyncio', 'pyautogui','winsound']
 checkinstalled(modules)
     # Modules 👇
 from pynput import keyboard
